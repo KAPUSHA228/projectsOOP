@@ -1,0 +1,3 @@
+file(GLOB srcs "*.cpp")
+file(GLOB hdrs "*.h*")
+add_library(${Postfixlib} STATIC ${srcs} ${hdrs})
